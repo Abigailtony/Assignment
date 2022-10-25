@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+    font-family: "Lexend Deca";
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.flex_body{
+    background-color: hsl(0, 0%, 95%) ;
+  display: flex;
+  flex-direction: column;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h2{
+    color: hsl(0, 0%, 95%);
+}
+button{
+   background-color: transparent;
+   height:50px;
+   width: 160px;
+   border-radius: 70px;
+   color: hsl(0, 0%, 95%);
+   border: 2px solid   hsl(0, 0%, 95%);
+   cursor: pointer;
+}
+.flex_container{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.flex_one{
+    width: 100%;
+    background-color: hsl(31, 77%, 52%);
+    height: 300px;
+    padding: 2.5rem;
+    font-size: 15px;
+}
+.flex_two{
+    width: 100%;
+    background-color: hsl(184, 100%, 22%);
+    height: 300px;
+    padding: 2.5rem;
+    font-size: 15px;
+}
+.flex_three{
+    width: 100%;
+    background-color: hsl(179, 100%, 13%);
+    height: 300px;
+    padding: 2.5rem;
+    font-size: 15px;
+}
+.flexcon{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+  margin-top: 2rem;
+}
+
+/*grid*/
+
+.grid_body{
+    background-color:#1A1C28 ;
+}
+.grid_container{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+    gap: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+.grid{
+    padding: 2rem;
+    text-align: center;
+}
+.grid_a{
+    width: 450px;
+    height: 100px;
+    background-color: #EB5020;
+    grid-area: a;
+}
+.grid_b{
+    width: 100px;
+    background-color:#FFA401 ;
+    grid-area: b;
+}
+.grid_c{
+    width: 200px;
+    height: 130px;
+    background-color: #05AA42 ;
+    grid-area: c;
+}
+.grid_d{
+    width: 350px;
+    height: 25px;
+    background-color:#01AEFD ;
+    grid-area: d;
+}
+.grid_e{
+    width: 350px;
+    height: 28px;
+    background-color:#01AEFD ;
+    grid-area: e;
+}
